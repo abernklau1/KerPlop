@@ -14,7 +14,9 @@ public class EldritchHorror extends GamePiece implements Moveable {
 	
 	@Override
 	public void move(Drawable[] gameBoard, int playerLocation) { 
-		
+		Random rand = new Random();
+        int toMove = rand.nextInt(20);
+		super.setLocation(toMove);
 	}
 
 	@Override
