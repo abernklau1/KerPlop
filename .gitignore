@@ -1,0 +1,8 @@
+.project
+.classpath
+.DS_Store
+/bin/
+.settings/
+gitlog.txt
+readme.txt
+*/module-info.java
