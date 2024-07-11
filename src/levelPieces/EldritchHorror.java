@@ -35,7 +35,7 @@ public class EldritchHorror extends GamePiece implements Moveable {
 
 		// Creates a random integer, then makes sure the newLocation is not on another piece
 		do {
-			newLocation =  rand.nextInt((20- 1) + 1) + 1;
+			newLocation =  rand.nextInt(21);
 		}
 		while(gameBoard[newLocation] != null || newLocation == playerLocation);
 
