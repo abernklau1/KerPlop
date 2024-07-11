@@ -1,0 +1,32 @@
+Andrew Bernklau
+
+I, Andrew Bernklau, certify that I participated equitably in the creation of assignment C05A, dated 07/10/2024.
+
+Peyton Calvert
+
+I, Peyton Calvert, certify that I participated equitably in the creation of assignment C05A, dated 07/10/2024.
+
+Game Pieces:
+
+5 that interact
+NONE - EldritchHorror
+HIT - Archer
+KILL - LandMine
+GET_POINT - Coin
+ADVANCE - WarpPad
+
+1 interacts at a distance
+Archer
+
+3 interact only when on the same square
+LandMine
+Coin
+WarpPad
+
+2 that move
+Randomly - EldritchHorror
+Archer
+
+1 piece is only drawable
+Rock
+

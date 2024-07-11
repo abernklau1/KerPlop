@@ -126,10 +126,10 @@ public class LevelSetup {
 		gameBoard[A1.getLocation()] = A1;
 		gameBoard[EH1.getLocation()] = EH1;
 		gameBoard[WP1.getLocation()] = WP1;
+
+		// Clear and populate the moving/interacting pieces ArrayLists
 		movingPieces.clear();
 		interactingPieces.clear();
-
-		// Populate the moving/interacting pieces ArrayLists
 		movingPieces.add(A1);
 		movingPieces.add(EH1);
 
