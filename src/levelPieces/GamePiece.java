@@ -16,22 +16,22 @@ public abstract class GamePiece implements Drawable {
 	// Interfaces cannot have instance variables
 	protected char symbol;
 	private String label ;
-	// Stores the piece location, which will be needed to interact
+	// Stores the piece newLocation, which will be needed to interact
 	// with the player. 
-	private int location;
+	private int newLocation;
 
 	/**
 	 * Constructor for the game piece
 	 * 
 	 * @param symbol  symbol for the game piece
 	 * @param label TODO
-	 * @param location initial location
+	 * @param newLocation initial newLocation
 	 */
 	public GamePiece(char symbol, String label, int location) {
 		super();
 		this.symbol = symbol;
 		this.label = label ;
-		this.location = location;
+		this.newLocation = location;
 	}
 
 	/**
@@ -56,25 +56,25 @@ public abstract class GamePiece implements Drawable {
 
 	/**
 	 * 
-	 * @return piece's current location on board
+	 * @return piece's current newLocation on board
 	 */
 	public int getLocation() {
-		return location;
+		return newLocation;
 	}
-	
+
 	/**
-	 * @param newLocation - location to place piece
+	 * @param newLocation - newLocation to place piece
 	 */
 	public void setLocation(int newLocation) {
-		// Ensure the location remains on the board
+		// Ensure the newLocation remains on the board
 		if (newLocation >= 0 && newLocation < GameEngine.BOARD_SIZE)
-			location = newLocation;
+			this.newLocation = newLocation;
 	}
-	
+
 	@Override
 	public String toString() {
 		return symbol + " - " + label ; 
 	}
-	
+
 
 }
